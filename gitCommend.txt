@@ -1,0 +1,49 @@
+1.git init
+2.ls / ls -al =>//show all file in this repository
+3.git status
+4.git add fileName =>add new file to git
+
+*=======set global name & email=========
+5.git config --global user.name "Name" =>set name
+6.git config --global user.name =>check userName
+
+7.git config --global user.email raselhossainy52@gmail.com
+8.git config --global user.email =>check userEmail
+*===========**=============*
+
+
+*=========Git Commit=========*
+9.git commit -m "Message" =>if changed something
+10.git commit -am "Message" =>for commit all chenged
+11.git commit -m "Message" fileName fileName
+*============**=============*
+
+
+12.git diff =>to see what was changed
+
+	
+
+	**note: if you add more new file than you have to add thouse file to the git by "git add FileName"
+
+12.git log =>show what was chnged in lig directory
+
+13.rm fileName =>for remove a file
+14.git restore fileName =>for restore removed file
+
+*==============show,checkout,cat and master================*
+15.git show #code =>see what has in this perticular #code
+15.git checkout #code =>switch "master branch" to #code
+16.cat fileName =>show file filecontent
+17.git checkout master =>switch master from another #code
+*====================***=====================*
+
+*=================Remote git=======================*
+18.git remote add origin (git ssh)
+19.git remote show
+20.git push (originName) master
+
+
+
+
+
+21.git pull --allow-unrelated-histories
